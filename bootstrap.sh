@@ -88,5 +88,4 @@ mv composer.phar /usr/local/bin/composer
 
 echo "--- Update project components ---"
 cd /var/www/html
-composer install
-#sudo -u vagrant -H sh -c "composer install"
+sudo -u vagrant -H sh -c "composer install"
